@@ -1,0 +1,19 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  color: #222;
+}
+
+.nav>li>a:hover {
+  background-color: transparent;
+  color: #900000;
+}
+
+.navbar {
+  background-color:  rgba(255, 255, 255, 0.55);
+}
