@@ -31,7 +31,7 @@ a {
 }
 
 .navbar {
-  background-color:  #455A64;
+  background-color:  #333;
 }
 
 .navbar-fixed-top {
@@ -41,7 +41,7 @@ a {
 }
 
 .navbar .navbar-toggle .icon-bar {
-    background-color: #FFF;
+  background-color: #FFF;
 }
 
 .body-image {
@@ -50,6 +50,19 @@ a {
   margin: 50px 0 0 0;
   background-image: url(../img/test.jpg);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.body-title {
+  margin: -10px 0 0 0;
+  text-align: center;
+}
+
+.body-title h1 {
+  margin: -20px 0 0 0;
+}
+
+.logo {
+  font-size: 120px;
 }
 
 .body-text {
@@ -61,5 +74,5 @@ a {
 }
 
 .entry-one {
-  margin: 150px 0 0 0;
+  margin: 70px 0 0 0;
 }
