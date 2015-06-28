@@ -62,7 +62,7 @@ body {
   height: 400px;
   margin: 50px 0 0 0;
   background-image: url(../img/test.jpg);
-  box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .body-title {
