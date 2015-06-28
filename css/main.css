@@ -15,19 +15,20 @@ a {
   text-shadow: none;
 }
 .navbar-brand {
-  color: #BEED93;
+  color: #F5F5F5;
 }
 
 .navbar-brand:hover {
   text-shadow: none;
-  color: #F5F5F5;
+  color: #BEED93;
 }
 
 .nav>li>a {
   text-shadow: none;
 }
 
-.nav>li>a:hover {
+.nav>li>a:hover,
+.nav>li>a:focus {
   background-color: transparent;
   text-shadow: none;
   color: #BEED93;
