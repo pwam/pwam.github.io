@@ -17,7 +17,7 @@ a {
 
 .navbar-brand:hover {
   text-shadow: none;
-  color: #FFEB3B;
+  color: #BEED93;
 }
 
 .nav>li>a {
@@ -27,7 +27,7 @@ a {
 .nav>li>a:hover {
   background-color: transparent;
   text-shadow: none;
-  color: #FFEB3B;
+  color: #BEED93;
 }
 
 .navbar {
