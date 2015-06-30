@@ -58,7 +58,7 @@ display: block!important;
 }
 
 .navbar-nav>li, .navbar-nav {
-float: left !important;
+  float: left !important;
   margin: 0 0 0 0;
 }
 
