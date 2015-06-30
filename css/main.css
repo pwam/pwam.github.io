@@ -4,6 +4,12 @@
   .navbar-brand {
     padding: 15px 0px;
   }
+  .body-image {
+    background: url(../img/background.jpg);
+  }
+  video {
+    display: none;
+  }
 }
 @media(min-width:992px){
   .container-body {
