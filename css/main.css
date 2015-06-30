@@ -19,8 +19,6 @@ a {
 
 .navbar-brand {
   text-shadow: none;
-}
-.navbar-brand {
   color: #F5F5F5;
 }
 
@@ -31,6 +29,7 @@ a {
 
 .nav>li>a {
   text-shadow: none;
+  padding: 15px;
 }
 
 .nav>li>a:hover,
@@ -52,6 +51,23 @@ a {
 
 .navbar .navbar-toggle .icon-bar {
   background-color: #FFF;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+  margin: 0 0 0 0;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin: 0 -15px 0 0;
+}
+
+.navbar-right {
+float: right!important;
 }
 
 body {
