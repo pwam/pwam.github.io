@@ -1,4 +1,3 @@
-@media(max-width:320px){}
 @media(max-width:480px){}
 @media(max-width:768px){
   .navbar-brand {
@@ -180,4 +179,11 @@ background-size: cover;
 
 .entry-last {
   margin: 25px 0 25px 0;
+}
+
+
+@media(max-width:340px){
+  .nav>li>a {
+    padding: 15px 10px 15px 10px;
+  }
 }
