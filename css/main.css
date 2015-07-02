@@ -26,6 +26,48 @@ a {
   color: #F5F5F5;
 }
 
+.nav {
+  -moz-animation-name: dropHeader;
+-moz-animation-iteration-count: 1;
+-moz-animation-timing-function: ease-in;
+-moz-animation-duration: 0.3s;
+
+-webkit-animation-name: dropHeader;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease-in;
+-webkit-animation-duration: 0.3s;
+
+animation-name: dropHeader;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 0.3s;
+}
+
+@-moz-keyframes dropHeader {
+    0% {
+        -moz-transform: translateY(-50px);
+    }
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+@-webkit-keyframes dropHeader {
+    0% {
+        -webkit-transform: translateY(-50px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes dropHeader {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .navbar-brand {
   text-shadow: none;
   color: #F5F5F5;
@@ -39,7 +81,6 @@ a {
   background-size: contain;
 }
 
-s
 .navbar-brand:hover {
   text-shadow: none;
   color: #BEED93;
