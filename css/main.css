@@ -30,8 +30,8 @@
 
 @-webkit-keyframes slideInUp {
   0% {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
     visibility: visible;
   }
 
@@ -43,8 +43,8 @@
 
 @keyframes slideInUp {
   0% {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
     visibility: visible;
   }
 
